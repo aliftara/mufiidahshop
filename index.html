@@ -377,7 +377,7 @@
                                             </select>
                                         </div>
                                         <label>Jumlah</label>
-                                        <input type="text" name="jumlah" class="form-control" placeholder="jumlah" id="jumlah">
+                                        <input type="number" min="1" max="10" value='1' name="jumlah" class="form-control" placeholder="jumlah" id="jumlah">
                                         <div class="form-group">
                                             <label>Catatan</label>
                                             <textarea name="description" class="form-control" rows="3" id="description" placeholder="Isi Catatan"></textarea>
@@ -547,8 +547,44 @@
     </div>
 </div>
 <!-- Copyright End -->
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- chat fload -->
+<div id='whatsapp-chat' class='hide'>
+<div class='header-chat'>
+<div class='head-home'><h3>Hello!</h3>
+<p>Klik disini untuk mengirim pesan kami melalui WhatsApp</p></div>
+<div class='get-new hide'><div id='get-label'></div><div id='get-nama'></div></div></div>
+<div class='home-chat'>
+<!-- Info Contact Start -->
+<a class='informasi' href='javascript:void' title='Chat Whatsapp'>
+<div class='info-avatar'><img src='https://2.bp.blogspot.com/-y6xNA_8TpFo/XXWzkdYk0MI/AAAAAAAAA5s/RCzTBJ_FbMwVt5AEZKekwQqiDNqdNQJjgCLcBGAs/s70/supportmale.png'/></div>
+<div class='info-chat'>
+<span class='chat-label'>Support</span>
+<span class='chat-nama'>Khusus Pria</span>
+</div><span class='my-number'>6285359090206</span>
+</a>
+<!-- Info Contact End -->
+<!-- Info Contact Start -->
+<a class='informasi' href='javascript:void' title='Chat Whatsapp'>
+<div class='info-avatar'><img src='https://4.bp.blogspot.com/-X1Xs2iRKabY/XXWzkqQ-iDI/AAAAAAAAA5w/HSyhR0gIXvUzlAx5XgaZzmlrCJkTgrOFQCLcBGAs/s70/supportfemale.png'/></div>
+<div class='info-chat'>
+<span class='chat-label'>Sales</span>
+<span class='chat-nama'>Khusus Wanita</span>
+</div><span class='my-number'>6282161560001</span>
+</a>
+<!-- Info Contact End -->
+<div class='blanter-msg'>Hubungi kami di <b>+6282161560001</b> di jam <i>08:00am - 04:00pm</i></div></div>
+<div class='start-chat hide'>
+<div class='first-msg'><span>Tanya aja boleh</span></div>
+<div class='blanter-msg'><textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
+<a href='javascript:void;' id='send-it'>Send</a></div></div>
+<div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
+</div>
+<a class='blantershow-chat' href='javascript:void' title='Show Chat'><i class='fab fa-whatsapp'></i>Bisa kami bantu?</a>
+<!-- chat fload -->
+
+
+
 <!-- JavaScript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
