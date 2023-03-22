@@ -690,7 +690,7 @@
     transform:scale(1)
 }
 a.blantershow-chat{
-    background:linear-gradient(to right top,#88b44e,#88b44e);
+    background:linear-gradient(to right top,#4d721c,#88b44e);
     color:#fff;
     position:fixed;
     z-index:98;
@@ -706,7 +706,7 @@ a.blantershow-chat{
         margin:0 10px 0 0
     }
     .header-chat{
-        background:linear-gradient(to right top,#88b44e,#88b44e);
+        background:linear-gradient(to right top,#4d721c,#88b44e);
         color:#fff;
         padding:20px
     }
@@ -733,7 +733,7 @@ a.blantershow-chat{
         font-family:"Font Awesome 5 Brands";
         background:#23ab23;
         color:#fff;
-        padding:4px 5px;
+        padding:1px 5px;
         border-radius:100%;
         position:absolute;
         top:30px;
